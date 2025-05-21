@@ -1,22 +1,21 @@
-@import "tailwindcss";
-@import "./comon/sim.css";
+
 /* 수동으로 다크모드 적용하고 싶을때 */
 /* @custom-variant dark (&:where(.dark, .dark *)); */
-/* @theme{
+@theme{
    --color-likelion: oklch(0.72 0.11 178);
    /* 수트글꼴 추가 */
-   /* --font-suit:'SUIT Variable', sans-serif; */
+   --font-suit:'SUIT Variable', sans-serif;
 
  /* 중단점을 재정의 */
-   /* --breakpoinl-sm: 30rem; */
+   --breakpoinl-sm: 30rem;
 
    /* 텍스트 스몰 재정의 */
-   /* --text-sm: 0.8125rem; */
+   --text-sm: 0.8125rem;
 
    /* 애니메이션 유틸리티 */
-     /* --animate-fade-in-scale: fade-in-scale 0.3s ease-out; */
+     --animate-fade-in-scale: fade-in-scale 0.3s ease-out;
   
-  /* @keyframes fade-in-scale {
+  @keyframes fade-in-scale {
     0% {
       opacity: 0;
       transform: scale(0.95);
@@ -26,4 +25,4 @@
       transform: scale(1);
     }
   }
-} */ 
+}
